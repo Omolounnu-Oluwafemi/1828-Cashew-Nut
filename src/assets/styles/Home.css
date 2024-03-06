@@ -1,0 +1,72 @@
+.homeHero {
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* height: 700px; */
+}
+
+.heroContainerParagraph {
+    line-height: 48px;
+    font-size: 32px;
+}
+
+.heroContainerheader {
+    line-height: 56px;
+    font-size: 40px;
+}
+
+.greenCard {
+    background-color: green;
+    max-width: 50%;
+    border-radius: 0%;
+    height: 480px;
+    margin-top: 40px;
+}
+
+.greenCard h4 {
+    color: #FBFBFB;
+    font-size: 32px;
+    padding-top: 20px;
+    line-height: 48px;
+    padding: 100px 0 0 80px;
+}
+
+.greenCard h5 {
+    color: #FBFBFB;
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 40px;
+    margin-top: 30px;
+    padding: 0 80px 0px;
+}
+
+.secondSection {
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .greenCard {
+        background-color: green;
+        max-width: 100%;
+        border-radius: 0%;
+        height: 200px;
+    }
+
+    .greenCard h4 {
+        color: white;
+        font-size: 25px;
+        padding-top: 20px;
+        line-height: 48px;
+        padding: 20px 0 0 50px;
+    }
+
+    .greenCard h5 {
+        color: white;
+        font-size: 18px;
+        font-weight: lighter;
+        line-height: 20px;
+        margin-top: 20px;
+        padding: 0 50px 0px;
+    }
+}
