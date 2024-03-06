@@ -1,5 +1,7 @@
 import { Row, Col } from "react-bootstrap"
 import "./../assets/styles/Home.css"
+import Home3Card from "../components/Home/Home3Card"
+import Certifications from "../components/Home/Certifications"
 
 const Home = () => {
   return (
@@ -29,8 +31,11 @@ const Home = () => {
               <div className="greenCard">
                   <h4>1828 Cashew Nut</h4>
                   <h5>We export Cashew nuts to every part of the world, supply and delivery is guaranteed </h5>
-                  
               </div>
+
+              <Home3Card />
+              <Certifications/>
+              
 
           </div>
           
