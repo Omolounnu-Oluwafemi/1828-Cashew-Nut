@@ -47,9 +47,6 @@
     }
 }
 
-.thirdSection {
-    /* position: absolute; */
-}
 
 .greenCard {
     background-color: green;
@@ -94,11 +91,7 @@
     margin-top: -160px;
 }
 
-.fifthSection {
-    /* position: relative;   */
-    /* top: 20%; */
-    /* left: 0; */
-}
+
 
 @media screen and (max-width: 768px) {
     .homeHero {
