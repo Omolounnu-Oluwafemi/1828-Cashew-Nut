@@ -17,9 +17,27 @@
 }
 
 .navbar {
-    background-color: #A6BC97;
     padding-bottom: 0;
-    margin-top: 0;
+    margin-top: -7px;
     position: relative;
     z-index: 1000;
+    background: linear-gradient(to right, #A6BC97 80%, #F0D8B2 20%);
+    position: fixed;
+    height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-bottom: 0;
+        /* margin-top: px; */
+        position: relative;
+        z-index: 1000;
+        background: linear-gradient(to right, #A6BC97 80%, #F0D8B2 20%);
+        position: fixed;
+        height: 50px;
+    }
+
+    .logo {
+        width: 40%;
+    }
 }

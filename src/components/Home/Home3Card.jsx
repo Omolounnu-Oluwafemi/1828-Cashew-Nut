@@ -1,23 +1,24 @@
-import { Card, Container } from 'react-bootstrap';
+import { Card, Container} from 'react-bootstrap';
 import { Home3Data } from '../../assets/data/Home3Data';
 import './../../assets/styles/home3Card.css'
-
-
-
 
 const Home3Card = () => {
     
     const data = Home3Data
   return (
-      <Container className='home3Card'>
-          {data.map((data, index) => (
-            <Card key={ index} style={{ width: '20rem' }}>
-             <Card.Img variant="top" src={data.img}/>
-             <Card.Body>
-                <Card.Title>{data.title}</Card.Title>
-                 </Card.Body>
-              </Card>
-            ))}
+    <Container className='home3Card'>
+     
+        {data.map((data, index) => (
+          <Card  key={ index}  className='eachHome3Card'>
+            <Card.Img  src={data.img} className='home3img'/>
+            <Card.Body className='home3texts'>
+              <h4>{data.type}</h4>
+                <h4>{data.title}</h4>
+              </Card.Body>
+            </Card>
+       ))}
+     
+      
     </Container>
   )
 }

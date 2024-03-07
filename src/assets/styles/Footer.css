@@ -1,7 +1,12 @@
 .footer {
     background-color: #F0D8B2;
+
 }
 
-/* .footerContainer {
-    justify-content: space-between;
-} */
+.footerContainer {
+    padding-top: 120px;
+}
+
+.footerLogo {
+    width: 20%;
+}

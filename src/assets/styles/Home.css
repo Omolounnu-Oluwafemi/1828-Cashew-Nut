@@ -1,18 +1,54 @@
 .homeHero {
     width: 100%;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* height: 700px; */
+    /* margin-top: -30px; */
 }
 
-.heroContainerParagraph {
-    line-height: 48px;
-    font-size: 32px;
+.secondSection {
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+    margin-bottom: 250px;
+
+    .heroContainerParagraph {
+        line-height: 48px;
+        font-size: 32px;
+        /* margin: 40px 100px 0px 100px; */
+    }
+
+    .behealthyCont {
+        display: grid;
+        place-items: center;
+    }
+
+    #buddingplant {
+        width: 350px;
+        height: 385px;
+    }
+
+    .behealthytext {
+        line-height: 60px;
+        font-size: 55px;
+        margin-left: 75px;
+    }
+
+    .twoCashewCont {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 310px;
+        left: 260px
+    }
+
+    #twocashewfruit {
+        width: 325px;
+        height: 192px;
+    }
 }
 
-.heroContainerheader {
-    line-height: 56px;
-    font-size: 40px;
+.thirdSection {
+    /* position: absolute; */
 }
 
 .greenCard {
@@ -20,7 +56,7 @@
     max-width: 50%;
     border-radius: 0%;
     height: 480px;
-    margin-top: 40px;
+    margin-right: 2%;
 }
 
 .greenCard h4 {
@@ -40,12 +76,36 @@
     padding: 0 80px 0px;
 }
 
-.secondSection {
-    width: 90%;
-    margin: auto;
+.export40text {
+    margin-top: 20px;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #33511F;
+    padding-left: 10%;
+    padding-right: 20%;
+
+}
+
+.fourthSection {
+    /* position: absolute; */
+    /* top: 20%; */
+    /* left: 0; */
+    margin-top: -160px;
+}
+
+.fifthSection {
+    /* position: relative;   */
+    /* top: 20%; */
+    /* left: 0; */
 }
 
 @media screen and (max-width: 768px) {
+    .homeHero {
+        width: 100%;
+        margin-top: 27px;
+    }
+
     .greenCard {
         background-color: green;
         max-width: 100%;
@@ -69,4 +129,6 @@
         margin-top: 20px;
         padding: 0 50px 0px;
     }
+
+
 }

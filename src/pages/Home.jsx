@@ -3,44 +3,59 @@ import "./../assets/styles/Home.css"
 import Home3Card from "../components/Home/Home3Card"
 import Certifications from "../components/Home/Certifications"
 
-const Home = () => {
+function Home(){
   return (
+    <>
       <div >
-          <div>
-               <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594039/1828Cashew/image_9_uolzcf.png" className="homeHero" />
-           <h1 className="homeTitle">Welcome to 1828 Cashew</h1>
-          </div>
+        <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594039/1828Cashew/image_9_uolzcf.png" alt="" className="homeHero"/>
+           {/* <h1 className="homeTitle">Welcome to 1828 Cashew</h1> */}
+      </div>
          
-          <div className="homeContainer">
-            <Row className="secondSection">
-                  <Col >
-                      <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594037/1828Cashew/image_11_cmqpo3.png" alt="budding cashew plant" />
-                      <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594037/1828Cashew/image_10_rysmqa.png" alt="two cashew fruit" />
-                  </Col>
-                  <Col>
-                    <h3 className="heroContainerheader">
-                    Be healthy and eat only 1828 cashew nut
-                    </h3>
-                      <p className="heroContainerParagraph">
-                          We have over 25 years of farming experience
-                      </p>
-                  </Col>  
-                  
-              </Row>
+      <div className="homeContainer">
+        <div className="secondSection">
+            <Row>
+              <Col className="">
+                <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594037/1828Cashew/image_11_cmqpo3.png" alt="budding cashew plant" id="buddingplant" />     
+              </Col> 
+              <Col className="behealthyCont">
+                <h3 className="behealthytext">
+                  Be healthy and eat only 1828 cashew nut
+                </h3>
+              </Col>
+            </Row> 
+            <Row className="twoCashewCont">
+              <Col>
+                <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594037/1828Cashew/image_10_rysmqa.png" alt="two cashew fruit" id="twocashewfruit"/>
+              </Col> 
+              <Col>
+                <p className="heroContainerParagraph">
+                  We have over 25 years of farming experience
+                </p>
+              </Col>
+            </Row>
+        </div>
+  
+        <Row className="thirdSection">
+           <Col className="greenCard">
+              <h4>1828 Cashew Nut</h4>
+              <h5>We export Cashew nuts to every part of the world, supply and delivery is guaranteed </h5>
+          </Col>
+          <Col className="export40">
+            <h4 className="export40text">
+              We export to over 40 countries of the world, 1828 cashew is the best leading cashew nut export company in Nigeria
+            </h4>
+          </Col>
+        </Row>
+        <div className="fourthSection">
+            <Home3Card />
+        </div>
+        <div className="fifthSection">
+            <Certifications/>
+        </div>
               
-              <div className="greenCard">
-                  <h4>1828 Cashew Nut</h4>
-                  <h5>We export Cashew nuts to every part of the world, supply and delivery is guaranteed </h5>
-              </div>
-
-              <Home3Card />
-              <Certifications/>
               
-
-          </div>
-          
-          
-    </div>
+      </div>
+    </>
   )
 }
 
