@@ -47,7 +47,6 @@ const NavBar = () => {
                     <Dropdown.Item href="/sourcing">Nut Sourcing</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
-                 <Nav.Link href="/register" className=' navlink'>Services</Nav.Link>
                 <Nav.Link href="/contact" className=' navlink'>Contact us</Nav.Link>
                 <Nav.Link href="/about" className=' navlink'>About us</Nav.Link>
                 <Nav.Link href="/gallery" className=' navlink'>Gallery</Nav.Link>
