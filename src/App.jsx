@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "./components/Layout/Layout";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 // import Gallery from "./pages/Gallery";
 
 function App( ) {
@@ -9,7 +9,7 @@ function App( ) {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
           {/* <Route path="/gallery" element={<Gallery />} /> */}
         </Route>
       </Routes>

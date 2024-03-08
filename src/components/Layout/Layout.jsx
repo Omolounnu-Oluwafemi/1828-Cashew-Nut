@@ -1,7 +1,8 @@
 // import React from "react"
 import Footer from "../Footer/Footer"
 import NavBar from "../NavBar/NavBar"
-import Home from "../../pages/Home"
+// import Home from "../../pages/Home"
+import Gallery from "../../pages/Gallery";
 
 // import PropTypes from 'prop-types';
 
@@ -12,7 +13,8 @@ const Layout = () => {
       {/* <main>
         {children}
       </main> */}
-      <Home/>
+      {/* <Home/> */}
+      <Gallery/>
       <Footer />
     </div>
   );

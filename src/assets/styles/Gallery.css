@@ -1,0 +1,84 @@
+.gallery {
+    background-color: #33511F;
+}
+
+.galleryHero {
+    background-image: url('https://res.cloudinary.com/drlfylzhf/image/upload/v1709902273/1828Cashew/GalleryPage/image_3_lacu6a.png');
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.galleryTextDiv {
+    background-color: #F7ECD9;
+    width: 10%;
+    margin-left: 45%;
+    padding: 10px;
+    top: 50%;
+    position: absolute;
+}
+
+.galleryTextDiv h1 {
+    text-align: center;
+}
+
+.gallery-container {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* row-gap: 40px; */
+}
+
+.eachGalleryCard {
+    width: 90%;
+    margin: auto;
+}
+
+.galleryImg {
+    width: 100%;
+}
+
+.eachGalleryCard h4 {
+    color: #FBFBFB;
+    text-align: center;
+    margin: 40px 0 70px 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .galleryTextDiv h1 {
+        text-align: center;
+    }
+
+    .gallery-container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* row-gap: 40px; */
+    }
+
+    .eachGalleryCard h4 {
+        color: #FBFBFB;
+        text-align: center;
+        margin: 40px 0 50px 0;
+    }
+
+}
+
+@media screen and (max-width: 1224px) {
+    .galleryTextDiv {
+        background-color: #F7ECD9;
+        width: 30%;
+        margin-left: 35%;
+        padding: 10px;
+        top: 50%;
+        position: absolute;
+    }
+
+    .galleryTextDiv h1 {
+        text-align: center;
+    }
+
+
+
+}
