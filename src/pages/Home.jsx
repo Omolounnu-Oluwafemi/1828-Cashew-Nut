@@ -6,9 +6,9 @@ import Certifications from "../components/Home/Certifications"
 function Home(){
   return (
     <>
-      <div >
-        <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594039/1828Cashew/image_9_uolzcf.png" alt="" className="homeHero"/>
-           {/* <h1 className="homeTitle">Welcome to 1828 Cashew</h1> */}
+      <div className="homeHero">
+        <h1 className="homeTitle">BEST CASHEW NUT COMPANY IN NIGERIA</h1>
+        <h3 className="homeHeroText">Customer satisfaction and consumer happiness with or product is our priority. We produce high quality cashew nut. </h3>
       </div>
          
       <div className="homeContainer">

@@ -1,6 +1,30 @@
 .homeHero {
-    width: 100%;
-    /* margin-top: -30px; */
+    background-image: url('https://res.cloudinary.com/drlfylzhf/image/upload/v1709594039/1828Cashew/image_9_uolzcf.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 820px;
+}
+
+.homeTitle {
+    padding-top: 270px;
+    width: 45%;
+    color: #FBFBFB;
+    font-size: 40px;
+    line-height: 56px;
+    margin-left: 90px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.homeHeroText {
+    padding-top: 50px;
+    width: 41%;
+    color: #FBFBFB;
+    font-size: 28px;
+    line-height: 40px;
+    margin-left: 90px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
 }
 
 .secondSection {
@@ -96,7 +120,31 @@
 @media screen and (max-width: 768px) {
     .homeHero {
         width: 100%;
-        margin-top: 27px;
+        background-size: auto;
+        margin-top: 0px;
+        /* max-height: 400px; */
+    }
+
+    .homeTitle {
+        padding-top: 150px;
+        width: 90%;
+        color: #FBFBFB;
+        font-size: 40px;
+        line-height: 56px;
+        margin-left: 5%;
+        text-align: center;
+        /* letter-spacing: 1px;
+        word-spacing: 5px; */
+    }
+
+    .homeHeroText {
+        padding-top: 50px;
+        width: 90%;
+        color: #FBFBFB;
+        font-size: 28px;
+        line-height: 40px;
+        margin-left: 5%;
+        text-align: center;
     }
 
     .greenCard {

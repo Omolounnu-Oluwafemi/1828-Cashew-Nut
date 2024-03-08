@@ -1,9 +1,9 @@
 .navlink {
     width: 10%;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     border-radius: 10px;
     text-align: center;
-    padding: 13px 0;
+    padding: 0;
 }
 
 .logoContainer {
@@ -26,6 +26,14 @@
     height: 70px;
 }
 
+#offcanvasNavbar {
+    background: #A6BC97;
+}
+
+.handleToggle {
+    border: none;
+}
+
 @media screen and (max-width: 768px) {
     .navbar {
         padding-bottom: 0;
@@ -38,6 +46,22 @@
     }
 
     .logo {
-        width: 40%;
+        width: 50%;
+    }
+
+    .logoToggle {
+        width: 20%;
+    }
+
+    .navlink {
+        width: 100%;
+        border: none;
+        border-radius: none;
+        text-align: center;
+        padding: 13px 0;
+    }
+
+    .navlink:hover {
+        background-color: #F0D8B2;
     }
 }
