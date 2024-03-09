@@ -5,11 +5,34 @@
     margin-bottom: 50px;
 }
 
+.servicesHero {
+    background-image: url('https://res.cloudinary.com/drlfylzhf/image/upload/v1709902273/1828Cashew/GalleryPage/image_3_lacu6a.png');
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.servicesTextDiv {
+    background-color: #F7ECD9;
+    width: 30%;
+    margin-left: 35%;
+    padding: 10px;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+}
+
 .carousel-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 30%;
     margin: auto;
     margin-top: 20px;
+}
+
+.selectButton {
+    border-radius: 50%;
+
+    /* width: 67px; */
 }

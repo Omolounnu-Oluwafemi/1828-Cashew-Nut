@@ -4,13 +4,12 @@ import './../../assets/styles/services.css'
 import PropTypes from 'prop-types';
 
 const ServicesCarousel = ({ images }) => {
-  
+  const [currentSlide, setCurrentSlide] = useState(0);
 
 ServicesCarousel.propTypes = {
     images: PropTypes.array.isRequired,
 };
 
-  const [currentSlide, setCurrentSlide] = useState(0);
 
   const changeSlide = (index) => {
     setCurrentSlide(index);
@@ -23,6 +22,7 @@ ServicesCarousel.propTypes = {
 
     return () => clearInterval(intervalId); 
   }, [images.length]); 
+  
 
   return (
     <div className="service-carousel">
@@ -38,7 +38,7 @@ ServicesCarousel.propTypes = {
       </div>
       <div className="carousel-buttons">
         {images.map((image, index) => (
-          <button key={index} data-index={index} onClick={() => changeSlide(index)}>
+          <button key={index} data-index={index} onClick={() => changeSlide(index)} className='selectButton'>
             {index + 1}
           </button>
         ))}

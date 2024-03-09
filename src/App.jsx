@@ -4,6 +4,8 @@ import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import Processing from "./pages/Services/Processing";
+import Sourcing from "./pages/Services/Sourcing";
+import Precooling from "./pages/Services/Precooling";
 
 function App( ) {
   return (
@@ -13,6 +15,8 @@ function App( ) {
           <Route index element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/processing" element={<Processing />} />
+          <Route path="/sourcing" element={<Sourcing />} />
+          <Route path="/exportation" element={<Precooling />} />
         </Route>
       </Routes>
     </BrowserRouter>
