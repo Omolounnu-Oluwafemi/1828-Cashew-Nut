@@ -1,6 +1,15 @@
 import { useState, useEffect } from 'react';
+import './../../assets/styles/services.css'
+
+import PropTypes from 'prop-types';
 
 const ServicesCarousel = ({ images }) => {
+  
+
+ServicesCarousel.propTypes = {
+    images: PropTypes.array.isRequired,
+};
+
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const changeSlide = (index) => {
@@ -10,14 +19,14 @@ const ServicesCarousel = ({ images }) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-    }, 5000); // Change image every 3 seconds
+    }, 5000); 
 
-    return () => clearInterval(intervalId); // Cleanup function to clear interval on unmount
-  }, [images.length]); // Run effect only when images change
+    return () => clearInterval(intervalId); 
+  }, [images.length]); 
 
   return (
-    <div className="carousel-container">
-      <div className="carousel-images">
+    <div className="service-carousel">
+      <div className="">
         {images.map((image, index) => (
           <img
             key={index}
