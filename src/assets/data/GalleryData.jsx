@@ -2,37 +2,37 @@ export const GalleryData = [
     {
         index: 1,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902275/1828Cashew/GalleryPage/IMG_6409_2_jsrrhn.png',
-        title: 'Machine',
+        title: 'Cashew Nut Dryer',
     },
     {
         index: 2,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902274/1828Cashew/GalleryPage/IMG_6402_2_lqishu.png',
-       title: 'Machine',
+       title: 'Oven Tray',
     },
     {
         index: 3,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902276/1828Cashew/GalleryPage/IMG_6421_1_xwbs9g.png',
-        title: 'Machine',
+        title: 'Factory car park',
     },
      {
         index: 4,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902276/1828Cashew/GalleryPage/IMG_6419_3_fcnze3.png',
-        title: 'Machine',
+        title: 'Factory Storage Room',
     },
       {
         index: 5,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902276/1828Cashew/GalleryPage/IMG_6424_2_1_y23uum.png',
-        title: 'Machine',
+        title: 'Conference Room',
     },
        {
         index: 6,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902274/1828Cashew/GalleryPage/IMG_6423_4_mgjvoq.png',
-        title: 'Machine',
+        title: 'Factory Compound',
     },
         {
         index: 7,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902273/1828Cashew/GalleryPage/PHOTO-2024-02-26-14-33-31_1_kde0kv.png',
-        title: '!828 CASHEW NUT FACTORY STAFF',
+        title: '1828 CASHEW NUT FACTORY STAFF',
     },
      {
         index: 8,

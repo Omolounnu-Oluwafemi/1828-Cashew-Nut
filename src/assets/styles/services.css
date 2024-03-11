@@ -33,6 +33,151 @@
 
 .selectButton {
     border-radius: 50%;
+}
 
-    /* width: 67px; */
+.ServiceSection2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #C3C4C5;
+}
+
+.ServiceSection2Col1 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.ServiceSection2Col1 h5 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.ServiceSection2Col1 p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: medium;
+}
+
+.serviceSection2Row2 {
+    margin-top: 50px;
+}
+
+.servicesSection3 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #406627;
+    color: #FBFBFB;
+}
+
+.servicesSection3Cont {
+    padding-bottom: 70px;
+}
+
+.servicesSection3 h5 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.servicesSection3 p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: medium;
+}
+
+.servicesSection3Form {
+    width: 70%;
+    margin: auto;
+}
+
+.servicesSection3Form h3 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: medium;
+}
+
+.formBox {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.formWrite {
+    padding: 15px;
+}
+
+.servicesSection3Form Button {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #F3E2C5;
+    color: #2F2F2F;
+    padding: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .servicesHero {
+        height: 200px;
+    }
+
+    .servicesTextDiv {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .service-carousel {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-buttons {
+        display: none;
+    }
+
+    .ServiceSection2Col1 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .serviceSection2Row2,
+    .serviceSection2Row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicesSection3Row {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .servicesSection3RowP
+
+     {
+        text-align: start;
+    }
+
+    .servicesSection3Form {
+        width: 90%;
+        margin: auto;
+    }
+
+    .formBox {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .formWrite {
+        padding: 5px;
+    }
+
+    .servicesSection3Form Button {
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        background-color: #F3E2C5;
+        color: #2F2F2F;
+        padding: 15px;
+    }
+
 }

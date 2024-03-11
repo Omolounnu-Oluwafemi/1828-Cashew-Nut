@@ -1,14 +1,10 @@
+/* eslint-disable react/prop-types */
 import { useState, useEffect } from 'react';
 import './../../assets/styles/services.css'
-
-import PropTypes from 'prop-types';
 
 const ServicesCarousel = ({ images }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-ServicesCarousel.propTypes = {
-    images: PropTypes.array.isRequired,
-};
 
 
   const changeSlide = (index) => {
@@ -38,9 +34,9 @@ ServicesCarousel.propTypes = {
       </div>
       <div className="carousel-buttons">
         {images.map((image, index) => (
-          <button key={index} data-index={index} onClick={() => changeSlide(index)} className='selectButton'>
-            {index + 1}
-          </button>
+          <div key={index} data-index={index} onClick={() => changeSlide(index)} className='selectButton'>
+              ⚪️
+          </div>
         ))}
       </div>
     </div>
