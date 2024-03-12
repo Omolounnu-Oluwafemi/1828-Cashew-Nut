@@ -6,6 +6,8 @@ import Gallery from "./pages/Gallery";
 import Processing from "./pages/Services/Processing";
 import Sourcing from "./pages/Services/Sourcing";
 import Precooling from "./pages/Services/Precooling";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App( ) {
   return (
@@ -17,6 +19,8 @@ function App( ) {
           <Route path="/processing" element={<Processing />} />
           <Route path="/sourcing" element={<Sourcing />} />
           <Route path="/exportation" element={<Precooling />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

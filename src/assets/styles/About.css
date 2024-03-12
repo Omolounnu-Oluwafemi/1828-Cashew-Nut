@@ -1,0 +1,15 @@
+.aboutContainer {
+    background-color: #406627;
+    color: #ffff;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.othersections {
+    background-color: #406627;
+    color: #ffff;
+}
+
+.flexedSections {
+    width: 50%;
+}

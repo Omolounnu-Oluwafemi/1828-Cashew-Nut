@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .servicesHero {
@@ -29,13 +29,11 @@
     width: 30%;
     margin: auto;
     margin-top: 20px;
-}
 
-.selectButton {
-    border-radius: 50%;
 }
 
 .ServiceSection2 {
+    margin-top: 0;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #C3C4C5;
@@ -114,6 +112,10 @@
     padding: 15px;
 }
 
+/* .selectButton {
+    width: 300px;
+} */
+
 
 @media screen and (max-width: 768px) {
     .servicesHero {
@@ -121,8 +123,8 @@
     }
 
     .servicesTextDiv {
-        width: 80%;
-        margin-left: 10%;
+        width: 70%;
+        margin-left: 15%;
     }
 
     .service-carousel {
@@ -151,9 +153,7 @@
         text-align: start;
     }
 
-    .servicesSection3RowP
-
-     {
+    .servicesSection3RowP {
         text-align: start;
     }
 

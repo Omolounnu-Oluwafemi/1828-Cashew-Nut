@@ -5,8 +5,6 @@ import './../../assets/styles/services.css'
 const ServicesCarousel = ({ images }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-
-
   const changeSlide = (index) => {
     setCurrentSlide(index);
   };
@@ -19,7 +17,6 @@ const ServicesCarousel = ({ images }) => {
     return () => clearInterval(intervalId); 
   }, [images.length]); 
   
-
   return (
     <div className="service-carousel">
       <div className="">
@@ -34,8 +31,20 @@ const ServicesCarousel = ({ images }) => {
       </div>
       <div className="carousel-buttons">
         {images.map((image, index) => (
-          <div key={index} data-index={index} onClick={() => changeSlide(index)} className='selectButton'>
-              ⚪️
+          <div
+            key={index}
+            data-index={index}
+            onClick={() => changeSlide(index)}
+            className='selectButton'
+          >
+            {currentSlide === index ?
+              <svg width="30" height="30" viewBox="0 0 16 16">
+                <circle cx="8" cy="8" r="8" fill="#9C9D9E" />
+              </svg>
+                  : 
+                <svg width="30" height="30" viewBox="0 0 16 16">
+                <circle cx="8" cy="8" r="8" fill="#D9D9D9" />
+              </svg>}
           </div>
         ))}
       </div>
