@@ -1,0 +1,19 @@
+.modalCont {
+    width: 50%;
+    margin: auto;
+    background-color: #FBFBFB;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalFull {
+    background-color: #F3E2C5;
+}
+
+.modalImg {
+    width: 40%;
+    /* margin-left: 25%; */
+}
