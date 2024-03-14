@@ -11,7 +11,7 @@ const ContactComponent = () => {
              <h4>Contact Us</h4>
              <h5>BBA Ventures</h5>
              <p>(Maker of 1828 Cashew Nut)</p>
-            <Row>
+            <Row className="contact-icons-row">
               <Col className="contact-icons">
                 <FontAwesomeIcon icon={faSquareEnvelope} size="lg"/>
               </Col>
@@ -19,7 +19,7 @@ const ContactComponent = () => {
                 <p>bolosoka04@yahoo.com</p>
               </Col>  
             </Row>
-            <Row>
+            <Row className="contact-icons-row">
                <Col className="contact-icons">
                    <FontAwesomeIcon icon={faLocationPin} size="lg" />
               </Col>
@@ -27,7 +27,7 @@ const ContactComponent = () => {
                 <p> Arepo Industrial estate,Km3 Lagos/shagamu express Arepo, Ogun State</p>
               </Col>
             </Row>
-            <Row>
+            <Row className="contact-icons-row">
                <Col className="contact-icons">
                  <FontAwesomeIcon icon={faPhoneVolume} size="lg" />
               </Col>
