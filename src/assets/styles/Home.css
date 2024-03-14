@@ -3,57 +3,75 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 820px;
+    position: relative;
+    z-index: 1;
+}
+
+.homeHero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 820px;
+    background: linear-gradient(to right,
+            #406627 0%,
+            #4A6937 0%,
+            transparent 100%);
 }
 
 .homeTitle {
-    padding-top: 270px;
-    width: 45%;
+    padding-top: 450px;
+    width: 43%;
     color: #FBFBFB;
     font-size: 40px;
     line-height: 56px;
-    margin-left: 90px;
+    margin-left: 70px;
     letter-spacing: 1px;
     word-spacing: 5px;
+    z-index: 2;
+    position: relative;
 }
 
 .homeHeroText {
-    padding-top: 50px;
-    width: 41%;
+    position: relative;
+    padding-top: 15px;
+    width: 32%;
     color: #FBFBFB;
-    font-size: 28px;
-    line-height: 40px;
-    margin-left: 90px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 70px;
     letter-spacing: 1px;
-    word-spacing: 8px;
+    word-spacing: 5px;
+    z-index: 2;
 }
 
 .secondSection {
-    width: 85%;
+    width: 70%;
     margin: auto;
     margin-top: 80px;
-    position: relative;
-    margin-bottom: 250px;
-
-    .heroContainerParagraph {
-        line-height: 48px;
-        font-size: 32px;
-        /* margin: 40px 100px 0px 100px; */
-    }
+    margin-bottom: 80px;
 
     .behealthyCont {
-        display: grid;
-        place-items: center;
+        margin: auto;
+        margin-left: 100px;
     }
 
     #buddingplant {
-        width: 350px;
-        height: 385px;
+        width: 100%;
+        height: 450px;
     }
 
     .behealthytext {
-        line-height: 60px;
-        font-size: 55px;
-        margin-left: 75px;
+        line-height: 64px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .heroContainerParagraph {
+        line-height: 42.7px;
+        font-size: 24px;
+        word-spacing: 10px;
     }
 
     .twoCashewCont {
@@ -73,49 +91,68 @@
 
 
 .greenCard {
-    background-color: green;
+    background-color: #406627;
     max-width: 50%;
-    border-radius: 0%;
-    height: 480px;
-    margin-right: 2%;
+    padding: 70px 70px;
 }
 
 .greenCard h4 {
+    width: 50%;
     color: #FBFBFB;
     font-size: 32px;
-    padding-top: 20px;
     line-height: 48px;
-    padding: 100px 0 0 80px;
+    margin-left: 20%;
+    margin: auto;
+
 }
 
 .greenCard h5 {
     color: #FBFBFB;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: lighter;
-    line-height: 40px;
+    line-height: 32px;
     margin-top: 30px;
-    padding: 0 80px 0px;
+    width: 65%;
+    margin-left: 20%;
+}
+
+.export40 {
+    background-color: #C4D3BA;
+    padding: 70px 70px;
 }
 
 .export40text {
-    margin-top: 20px;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: medium;
     color: #33511F;
-    padding-left: 10%;
-    padding-right: 20%;
-
-}
-
-.fourthSection {
-    /* position: absolute; */
-    /* top: 20%; */
-    /* left: 0; */
-    margin-top: -160px;
+    padding: 0 70px 0 70px;
+    margin-top: 40px;
 }
 
 
+
+@media screen and (max-width: 840px) {
+    .homeTitle {
+        padding-top: 400px;
+        width: 90%;
+        color: #FBFBFB;
+        font-size: 40px;
+        line-height: 56px;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .homeHeroText {
+        padding-top: 50px;
+        width: 90%;
+        color: #FBFBFB;
+        font-size: 28px;
+        line-height: 40px;
+        margin-left: 5%;
+        text-align: left;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .homeHero {
@@ -126,15 +163,13 @@
     }
 
     .homeTitle {
-        padding-top: 150px;
+        padding-top: 220px;
         width: 90%;
         color: #FBFBFB;
         font-size: 40px;
         line-height: 56px;
         margin-left: 5%;
-        text-align: center;
-        /* letter-spacing: 1px;
-        word-spacing: 5px; */
+        text-align: left;
     }
 
     .homeHeroText {
@@ -144,32 +179,98 @@
         font-size: 28px;
         line-height: 40px;
         margin-left: 5%;
-        text-align: center;
+        text-align: left;
     }
 
     .greenCard {
         background-color: green;
         max-width: 100%;
         border-radius: 0%;
-        height: 200px;
+        /* height: 200px; */
     }
 
     .greenCard h4 {
         color: white;
         font-size: 25px;
-        padding-top: 20px;
-        line-height: 48px;
-        padding: 20px 0 0 50px;
+        padding-top: 10px;
+        line-height: 28px;
+        width: 80%;
+        margin: auto;
     }
 
     .greenCard h5 {
         color: white;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: lighter;
-        line-height: 20px;
-        margin-top: 20px;
-        padding: 0 50px 0px;
+        line-height: 30px;
+        margin: auto;
+        margin-top: 30px;
+        width: 80%;
     }
+
+    .export40 {
+        background-color: #C4D3BA;
+        padding: 20px 20px;
+    }
+
+    .export40text {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: medium;
+        color: #33511F;
+        padding: 0 50px 0 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .secondSection {
+        width: 100%;
+
+        .behealthyCont {
+            margin: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+
+        #buddingplant {
+            width: 100%;
+            height: 450px;
+        }
+
+        .behealthyCont {
+            margin: auto;
+            margin-left: 0;
+            margin-top: 20%;
+        }
+
+        .behealthytext {
+            line-height: 44px;
+            font-size: 35px;
+            font-weight: bold;
+            margin-left: 0px;
+            text-align: left;
+        }
+
+        .heroContainerParagraph {
+            margin-top: 20px;
+            line-height: 32.7px;
+            font-size: 20px;
+            word-spacing: 10px;
+            margin-left: 0px;
+            text-align: left;
+        }
+    }
+
+    .second-section-row {
+        width: 100%;
+        margin: auto;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
 
 
 }

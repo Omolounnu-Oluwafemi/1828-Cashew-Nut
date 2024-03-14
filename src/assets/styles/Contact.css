@@ -1,5 +1,49 @@
 .contactCont {
     padding-top: 100px;
     background-color: #33511F;
-    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.inner-contactCont {
+    padding-top: 100px;
+    background-color: #FBFBFB;
+    color: #000;
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.contact-details-cont {
+    /* background-color: #33511F; */
+    margin: auto;
+    width: 90%;
+}
+
+.contact-details-cont h4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.contact-details-cont h5 {
+    font-size: 28px;
+    font-weight: medium;
+}
+
+.contact-details-cont p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.contact-form-Section {
+    margin: auto;
+    width: 90%;
+}
+
+.contact-icons {
+    width: 10%;
+}
+
+.contact-icons-texts {
+    width: 90%
 }

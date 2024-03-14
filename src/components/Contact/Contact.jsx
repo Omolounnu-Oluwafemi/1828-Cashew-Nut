@@ -1,35 +1,37 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationPin, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
+import { faLocationPin, faPhoneVolume, faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
+import './../../assets/styles/Contact.css'
 const ContactComponent = () => {
   return (
     <div>
-      <Container>
+      <Container className="contact-details-cont">
         <Row>
           <Col>
-             <h3>Contact Us</h3>
-             <h3>BBA Ventures</h3>
+             <h4>Contact Us</h4>
+             <h5>BBA Ventures</h5>
              <p>(Maker of 1828 Cashew Nut)</p>
             <Row>
-              <Col>
-                <FontAwesomeIcon icon={faLocationPin} size="lg" />
+              <Col className="contact-icons">
+                <FontAwesomeIcon icon={faSquareEnvelope} size="lg"/>
               </Col>
-              <Col>
+              <Col className="contact-icons-texts">
                 <p>bolosoka04@yahoo.com</p>
               </Col>  
             </Row>
             <Row>
-              <Col>
-                  <FontAwesomeIcon icon={faPhoneVolume} size="lg" />
+               <Col className="contact-icons">
+                   <FontAwesomeIcon icon={faLocationPin} size="lg" />
               </Col>
-              <Col>
+              <Col className="contact-icons-texts">
                 <p> Arepo Industrial estate,Km3 Lagos/shagamu express Arepo, Ogun State</p>
               </Col>
             </Row>
             <Row>
-              <Col>
+               <Col className="contact-icons">
+                 <FontAwesomeIcon icon={faPhoneVolume} size="lg" />
               </Col>
-              <Col>
+              <Col className="contact-icons-texts">
                 <p>+2348030700430</p>
               </Col>
             </Row>

@@ -8,12 +8,15 @@ const Contact = () => {
   return (
     <>
       <Row className="contactCont">
+        <Row className="inner-contactCont">
         <Col>
           <ContactComponent />
         </Col>
         <Col>
           <ContactForm/>
         </Col>
+        </Row>
+       
       </Row>
     </>
   )

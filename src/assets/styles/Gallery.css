@@ -1,5 +1,7 @@
 .gallery {
     background-color: #33511F;
+    width: 90%;
+    margin: auto;
 }
 
 .galleryHero {
@@ -23,14 +25,14 @@
 }
 
 .gallery-container {
-    margin-top: 70px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* row-gap: 40px; */
 }
 
 .eachGalleryCard {
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -45,6 +47,11 @@
 }
 
 @media screen and (max-width: 768px) {
+    .gallery {
+        background-color: #33511F;
+        width: 98%;
+        margin: auto;
+    }
 
     .galleryTextDiv h1 {
         text-align: center;

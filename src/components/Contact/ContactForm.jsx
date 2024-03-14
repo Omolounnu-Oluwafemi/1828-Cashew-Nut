@@ -3,7 +3,7 @@ import {Form, Button, Row, Col} from 'react-bootstrap'
 const ContactForm = () => {
   return (
     <div>
-       <Form className='servicesSection3Form'>
+       <Form className='contact-form-Section'>
         <Row>
             <Col>
             <Form.Control placeholder="First name" />

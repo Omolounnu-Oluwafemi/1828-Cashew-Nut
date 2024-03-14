@@ -1,29 +1,41 @@
 .navlink {
-    width: 10%;
-    border-bottom: 1px solid black;
-    border-radius: 10px;
     text-align: center;
-    padding: 0;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+.navlink:hover {
+    border: 2px solid #A6BC97;
+    border-radius: 10px;
+}
+
+.navbar-main {}
 
 .logoContainer {
-    width: 25%;
-    margin-left: 3%;
+    width: 40%;
+    margin-left: 6%;
     padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
+.logoContainer:hover {
+    cursor: not-allowed
+}
+
+
 .logo {
-    width: 25%;
+    width: 15%;
+    height: auto;
 }
 
 .navbar {
-    padding-bottom: 0;
-    margin-top: -7px;
-    position: relative;
-    z-index: 1000;
-    background: linear-gradient(to right, #A6BC97 80%, #F0D8B2 20%);
-    position: fixed;
+    background: linear-gradient(to right, #A6BC97 70%, #F0D8B2 30%);
     height: 70px;
+    padding-right: 3%;
+    position: fixed;
+    z-index: 2;
 }
 
 #offcanvasNavbar {
@@ -32,6 +44,28 @@
 
 .handleToggle {
     border: none;
+}
+
+.togleText {
+    margin-top: 1px;
+    border: none;
+}
+
+.togleText:focus {
+    border: none;
+}
+
+.toggleCont:focus {
+    border: none;
+}
+
+.dropCont {
+    background-color: #F0D8B2;
+    border: none;
+}
+
+.dropItem:hover {
+    background-color: #A6BC97;
 }
 
 @media screen and (max-width: 768px) {
@@ -46,7 +80,8 @@
     }
 
     .logo {
-        width: 50%;
+        width: 25%;
+        height: auto;
     }
 
     .logoToggle {
@@ -64,4 +99,5 @@
     .navlink:hover {
         background-color: #F0D8B2;
     }
+
 }
