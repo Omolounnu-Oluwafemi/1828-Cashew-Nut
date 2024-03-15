@@ -2,7 +2,9 @@
     padding-top: 100px;
     background-color: #33511F;
     width: 90%;
+
     margin: auto;
+
 }
 
 .inner-contactCont {
@@ -12,10 +14,11 @@
     width: 90%;
     margin: auto;
     border-radius: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 120px;
 }
 
 .contact-details-cont {
-    /* background-color: #33511F; */
     margin: auto;
     width: 90%;
 }
@@ -23,16 +26,19 @@
 .contact-details-cont h4 {
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .contact-details-cont h5 {
     font-size: 28px;
     font-weight: medium;
+    margin-bottom: -5px;
 }
 
 .contact-details-cont p {
     font-size: 16px;
     font-weight: lighter;
+    margin-bottom: 50px;
 }
 
 .contact-form-Section {
@@ -40,18 +46,28 @@
     width: 90%;
 }
 
-.contact-icons-row {
+.contact-icontext {
     width: 60%;
+    /* margin: auto; */
+    margin-left: 10%
 }
 
-.contact-icons {
-    width: 10%;
+
+.contact-icons-row {
+    display: flex;
 }
 
-.contact-icons-texts {
-    width: 90%
+.formName {
+    padding: 15px;
 }
 
-.contact-icons-texts1 {
-    width: 40%
+.form-button {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #6B9052;
+    color: #000;
+    font-size: 16px;
+    font-weight: Bold;
+    height: 40px;
+    margin-top: 10px;
 }

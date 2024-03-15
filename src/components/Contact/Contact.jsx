@@ -8,33 +8,33 @@ const ContactComponent = () => {
       <Container className="contact-details-cont">
         <Row>
           <Col>
-             <h4>Contact Us</h4>
+             <h4 className="contact-title">Contact Us</h4>
              <h5>BBA Ventures</h5>
              <p>(Maker of 1828 Cashew Nut)</p>
-            <Row className="contact-icons-row">
-              <Col className="contact-icons">
+            <div className="contact-icons-row">
+              <div className="">
                 <FontAwesomeIcon icon={faSquareEnvelope} size="lg"/>
-              </Col>
-              <Col className="contact-icons-texts">
+              </div>
+              <div className="contact-icontext">
                 <p>bolosoka04@yahoo.com</p>
-              </Col>  
-            </Row>
-            <Row className="contact-icons-row">
-               <Col className="contact-icons">
+              </div>  
+            </div>
+            <div className="contact-icons-row">
+               <div className="">
                    <FontAwesomeIcon icon={faLocationPin} size="lg" />
-              </Col>
-              <Col className="contact-icons-texts">
+              </div>
+              <div className="contact-icontext">
                 <p> Arepo Industrial estate,Km3 Lagos/shagamu express Arepo, Ogun State</p>
-              </Col>
-            </Row>
-            <Row className="contact-icons-row">
-               <Col className="contact-icons">
-                 <FontAwesomeIcon icon={faPhoneVolume} size="lg" />
-              </Col>
-              <Col className="contact-icons-texts">
+              </div>
+            </div>
+            <div className="contact-icons-row">
+              <div>
+                  <FontAwesomeIcon icon={faPhoneVolume} size="lg" />
+              </div>
+              <div className="contact-icontext">
                 <p>+2348030700430</p>
-              </Col>
-            </Row>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>

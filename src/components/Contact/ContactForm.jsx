@@ -6,10 +6,10 @@ const ContactForm = () => {
        <Form className='contact-form-Section'>
         <Row>
             <Col>
-            <Form.Control placeholder="First name" />
+            <Form.Control size="md" placeholder="First name" className="formName"/>
             </Col>
             <Col>
-            <Form.Control placeholder="Last name" />
+            <Form.Control placeholder="Last name" className="formName"/>
             </Col>
         </Row>
         
@@ -21,8 +21,8 @@ const ContactForm = () => {
           <Form.Control size="md" as="textarea"  rows={8} placeholder="Enter message here" />
         </Form.Group>
           
-        <Button variant="primary" type="submit">
-          Submit
+        <Button variant="primary" type="submit" className="form-button">
+          SUBMIT
         </Button>
     </Form>
     </div>
