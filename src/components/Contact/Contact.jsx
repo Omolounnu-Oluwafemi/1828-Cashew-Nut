@@ -8,7 +8,7 @@ const ContactComponent = () => {
       <Container className="contact-details-cont">
         <Row>
           <Col>
-             <h4 className="contact-title">Contact Us</h4>
+             <h4>Contact Us</h4>
              <h5>BBA Ventures</h5>
              <p>(Maker of 1828 Cashew Nut)</p>
             <div className="contact-icons-row">
