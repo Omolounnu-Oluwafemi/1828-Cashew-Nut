@@ -8,6 +8,7 @@ import Sourcing from "./pages/Services/Sourcing";
 import Precooling from "./pages/Services/Precooling";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import ProductPage from "./pages/Product";
 // import Modal from "./components/Modal/Modal";
 // import MessageModal from "./components/Modal/MessageModal";
 
@@ -23,6 +24,7 @@ function App( ) {
           <Route path="/exportation" element={<Precooling />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<ProductPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

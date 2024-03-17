@@ -1,0 +1,136 @@
+.product-page {
+    width: 90%;
+    margin: auto;
+    padding-top: 130px;
+    margin-bottom: 100px
+}
+
+.product-texts-section {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.ProductButton {
+    width: 100%;
+    padding: 15px;
+    background-color: #406627;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.product-page h4 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.product-description {
+    font-size: 28px;
+    font-weight: medium;
+    margin-bottom: 10px;
+}
+
+.product-text {
+    font-size: 20px;
+    font-weight: medium;
+    margin-bottom: 20px;
+}
+
+.weight {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4D7A2F;
+    margin-bottom: 30px;
+}
+
+.product-page h6 {
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.all-kgs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.kg {
+    font-size: 12px;
+}
+
+.star-container {
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .product-page {
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+        margin-bottom: 100px;
+        display: block;
+    }
+
+    .product-cashew {
+        width: 100%;
+        margin: auto;
+    }
+
+    .product-texts-section {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 10px;
+    }
+
+    .product-page h4 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .product-page h6 {
+        text-align: center;
+    }
+
+    .star-container {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 884px) {
+
+    .product-page {
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+        margin-bottom: 100px;
+        display: block;
+    }
+
+    .product-cashew {
+        width: 100%;
+        margin: auto;
+    }
+
+    .product-texts-section {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 50px;
+    }
+}
