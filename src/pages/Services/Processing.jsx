@@ -1,8 +1,12 @@
 /* eslint-disable react/prop-types */
-    import ServicesCarousel from './../../components/Services/ServicesCarousel'
-    import { imageData } from './../../assets/data/ServicesImages'
-    import { Col, Container, Row, Form, Button } from 'react-bootstrap';
-    const Processing = () => {
+import { useState } from 'react';    
+import ServicesCarousel from './../../components/Services/ServicesCarousel'
+import { imageData } from './../../assets/data/ServicesImages'
+import { Col, Container, Row, Form, Button } from 'react-bootstrap';
+import MessageModal from '../../components/Modal/MessageModal';
+
+
+const Processing = () => {
 
     const images = imageData;
 
@@ -19,6 +23,52 @@
 export default Processing
 
 export const Section3 = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+   const handleSubmit = (event) => {
+    event.preventDefault(); // Prevent default form submission
+
+    // Access form data from state variables
+    const formData = {
+      name,
+      email,
+      subject,
+      message,
+    };
+
+    console.log('Form submitted!');
+     console.log('Form Data:', formData);
+     if (formData) { 
+      console.log('isModalOpen:', isModalOpen);
+    setIsModalOpen(true);
+  }
+
+    // You can now send data to your server here using fetch or Axios
+    // Example using fetch (replace with your actual server endpoint):
+    // fetch('https://your-server-endpoint', {
+    //   method: 'POST',
+    //   body: JSON.stringify(formData),
+    //   headers: { 'Content-Type': 'application/json' },
+    // })
+    //   .then((response) => response.json())
+    //   .then((data) => {
+    //     console.log('Server response:', data);
+    //   })
+    //   .catch((error) => {
+    //     console.error('Error submitting form:', error);
+    //   });
+
+    // Clear form data after submission (optional)
+    setName('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
+   };
+  
   return (
     <div className='servicesSection3'>
       <Container className='servicesSection3Cont'>
@@ -38,31 +88,38 @@ export const Section3 = () => {
         </Row>
       </Container>
 
-      <Form className='servicesSection3Form'>
-        <h3>For more information</h3>
-        <Form.Group className="mb-3 formBox" controlId="formBasicName">
-          <Form.Control size="md" type='name' placeholder="Name" className='formWrite'/>
-        </Form.Group>
-        
-        <Form.Group className="mb-3 formBox" controlId="formBasicEmail">
-          <Form.Control  size="md" type="email" placeholder="Email" className='formWrite'/>
-        </Form.Group>
+       <Form className='servicesSection3Form'>
+      <h3>For more information</h3>
+      <Form.Group className="mb-3 formBox" controlId="formBasicName">
+        <Form.Control size="md" type='name' placeholder="Name" value={name} onChange={(event) => setName(event.target.value)} className='formWrite'/>
+      </Form.Group>
 
-        <Form.Group className="mb-3 formBox" controlId="formBasicSubject">
-          <Form.Control size="md" type="text" placeholder="Subject" className='formWrite'/>
-        </Form.Group>
+      <Form.Group className="mb-3 formBox" controlId="formBasicEmail">
+        <Form.Control  size="md" type="email" placeholder="Email" value={email} onChange={(event) => setEmail(event.target.value)} className='formWrite'/>
+      </Form.Group>
 
-        <Form.Group className="mb-3 formBox" controlId="formBasicEnteMessage">
-          <Form.Control size="md" as="textarea"  rows={8} placeholder="Enter message here" />
-        </Form.Group>
-          
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-    </Form>
+      <Form.Group className="mb-3 formBox" controlId="formBasicSubject">
+        <Form.Control size="md" type="text" placeholder="Subject" value={subject} onChange={(event) => setSubject(event.target.value)} className='formWrite'/>
+      </Form.Group>
+
+      <Form.Group className="mb-3 formBox" controlId="formBasicEnteMessage">
+        <Form.Control size="md" as="textarea"  rows={8} placeholder="Enter message here" value={message} onChange={(event) => setMessage(event.target.value)} />
+      </Form.Group>
+
+      <Button variant="primary" type="submit" onClick={handleSubmit}>
+        Submit
+      </Button>
+      </Form>
+
+      {isModalOpen && (
+        <div className="modal-overlay"> 
+          <MessageModal onClose={() => setIsModalOpen(false)} />
+        </div>
+      )}
 
 
-      </div>
+    </div>
+    
   )
 }
 
