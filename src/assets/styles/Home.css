@@ -54,7 +54,7 @@
 
     .behealthyCont {
         margin: auto;
-        margin-left: 100px;
+        margin-left: 70px;
     }
 
     #buddingplant {
@@ -103,7 +103,6 @@
     line-height: 48px;
     margin-left: 20%;
     margin: auto;
-
 }
 
 .greenCard h5 {
@@ -132,7 +131,7 @@
 
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
     .homeTitle {
         padding-top: 400px;
         width: 90%;
@@ -151,6 +150,38 @@
         line-height: 40px;
         margin-left: 5%;
         text-align: left;
+    }
+
+    .secondSection {
+        width: 90%;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .greenCard h4 {
+        width: 100%;
+        color: #FBFBFB;
+        font-size: 32px;
+        line-height: 48px;
+        margin-left: 20%;
+        margin: auto;
+    }
+
+    .greenCard h5 {
+        color: #FBFBFB;
+        font-size: 24px;
+        font-weight: lighter;
+        line-height: 32px;
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .export40 {
+        background-color: #C4D3BA;
+        padding: 20px 20px;
+        padding-top: 50px;
     }
 }
 

@@ -30,19 +30,37 @@
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 900px) {
+    .home3Card {
+        background-color: #FBFBFB;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        margin-top: 50px;
+    }
+
+    .eachHome3Card {
+        width: 80%;
+        margin: auto;
+        border-radius: 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .home3Card {
         background-color: #FBFBFB;
         width: 100%;
-        margin-left: 0px;
+        margin: auto;
         display: flex;
         flex-direction: column;
         border-radius: 0px;
+        margin-top: 50px;
     }
 
     .eachHome3Card {
-        width: 100%;
-        /* height: 500px; */
+        width: 90%;
         border-radius: 0px;
     }
 }
