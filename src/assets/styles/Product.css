@@ -25,6 +25,11 @@
     text-decoration: none;
 }
 
+.ProductButton:hover {
+    background-color: #C4D3BA;
+    color: #406627;
+}
+
 
 .product-page h4 {
     margin-bottom: 20px;
@@ -99,7 +104,6 @@
     }
 
     .product-page h4 {
-        text-align: center;
         margin-top: 30px;
     }
 
@@ -132,5 +136,9 @@
         padding-left: 2%;
         padding-right: 2%;
         margin-top: 50px;
+    }
+
+    .ProductButton {
+        margin-top: 30px;
     }
 }
