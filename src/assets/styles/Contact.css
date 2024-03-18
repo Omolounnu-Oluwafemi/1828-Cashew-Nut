@@ -41,7 +41,7 @@
 
 .contact-form-Section {
     margin: auto;
-    width: 90%;
+    width: 100%;
 }
 
 .contact-icontext {
@@ -69,10 +69,39 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+    .contactCont {
+        width: 95%;
+    }
 
     .inner-contactCont {
         padding-top: 50px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .contactCont {
+        width: 100%;
+    }
+
+    .inner-contactCont {
+        padding-top: 50px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .contactCont {
+        width: 100%;
+    }
+
+    .inner-contactCont {
+        padding-top: 50px;
+        width: 90%;
     }
 
     .contact-details-cont h4 {
@@ -99,6 +128,7 @@
 
     .contact-form-Section {
         margin: auto;
-        width: 100%;
+        width: 90%;
+        margin-top: 50px;
     }
 }

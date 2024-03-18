@@ -41,5 +41,6 @@
 @media screen and (max-width: 768px) {
     .modalCont h3 {
         font-size: 15px;
+        text-align: center;
     }
 }

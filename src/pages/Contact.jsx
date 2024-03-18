@@ -16,7 +16,6 @@ const Contact = () => {
           <ContactForm/>
         </Col>
         </Row>
-       
       </Row>
     </>
   )

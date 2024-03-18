@@ -30,7 +30,7 @@ export const Section3 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
    const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault();
 
     // Access form data from state variables
     const formData = {
@@ -43,7 +43,6 @@ export const Section3 = () => {
     console.log('Form submitted!');
      console.log('Form Data:', formData);
      if (formData) { 
-      console.log('isModalOpen:', isModalOpen);
     setIsModalOpen(true);
   }
 

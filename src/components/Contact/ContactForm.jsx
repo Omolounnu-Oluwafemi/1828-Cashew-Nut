@@ -18,7 +18,7 @@ const ContactForm = () => {
         </Form.Group>
 
         <Form.Group className="mb-3 formBox" controlId="formBasicEnteMessage">
-          <Form.Control size="md" as="textarea"  rows={8} placeholder="Enter message here" />
+          <Form.Control size="md" as="textarea"  rows={12} placeholder="Enter message here" />
         </Form.Group>
           
         <Button variant="primary" type="submit" className="form-button">
