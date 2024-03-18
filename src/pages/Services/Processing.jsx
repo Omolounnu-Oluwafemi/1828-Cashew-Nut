@@ -8,7 +8,7 @@
 
     return (
         <div>
-        <ServiceHero title={"Cashew Nut Processing"} />
+        <ServiceHero title={"Cashew Processing"} />
         <ServicesCarousel images={images} />
         <Section2 column1header={"Shelling and kernel extraction"} column1Text={"The harvested cashew nut are shelled and extracted into edible kernel"} column2header={"Grading and Sourcing"} column2Text={"The kernel are then grades based on their size, color and quality"} column3header={"Roasting and processing"} column3Text={"The cashew nut undergo a process of roasting and salting to add flavour"} column4header={"Packaging and storage"} column4Text={"The nuts are put in an enclosed vacuum for prolong shelf life "} />
         <Section3/>

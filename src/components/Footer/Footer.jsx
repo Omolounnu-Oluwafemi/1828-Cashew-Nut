@@ -20,18 +20,18 @@ const Footer = () => {
                   <Col xs={6} md={3}>
                     <h5>HOME</h5>
                 <ul className="list-unstyled footerLists">
-                    <a href='' className='no-deco'><li>Products</li></a>
-                    <a href='' className='no-deco'><li>Gallery</li></a>
-                    <a href='' className='no-deco'><li>Payment</li></a>
-                    <a href='' className='no-deco'><li>Certifications</li></a>
+                    <a href='/products' className='no-deco'><li>Products</li></a>
+                    <a href='/gallery' className='no-deco'><li>Gallery</li></a>
+                    <a href='/' className='no-deco'><li>Payment</li></a>
+                    <a href='/' className='no-deco'><li>Certifications</li></a>
                     </ul>
                   </Col>
                   <Col xs={6} md={3}>
                     <h5>ABOUT</h5>
                 <ul className="list-unstyled footerLists">
-                    <a href='' className='no-deco'><li>History</li></a>
-                    <a href='' className='no-deco'><li>Mission</li></a>
-                    <a href='' className='no-deco'><li>Vision</li></a>
+                    <a href='/about' className='no-deco'><li>History</li></a>
+                    <a href='/about' className='no-deco'><li>Mission</li></a>
+                    <a href='/about' className='no-deco'><li>Vision</li></a>
                     </ul>
                   </Col>
                     <Col xs={6} md={3}>
@@ -52,9 +52,9 @@ const Footer = () => {
                 <Col xs={6} md={3} className=""> 
                   <h5>SERVICES</h5>
                   <ul className="list-unstyled footerLists">
-                    <a href='' className='no-deco'><li>Processing</li></a>
-                    <a href='' className='no-deco'><li>Exportation</li></a>
-                    <a href='' className='no-deco'><li>Sourcing</li></a>
+                    <a href='/processing' className='no-deco'><li>Processing</li></a>
+                    <a href='/exportation' className='no-deco'><li>Exportation</li></a>
+                    <a href='/sourcing' className='no-deco'><li>Sourcing</li></a>
                   </ul>
                 </Col>
             </Row>
