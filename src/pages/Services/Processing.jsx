@@ -102,7 +102,7 @@ export const Section3 = () => {
       </Form.Group>
 
       <Form.Group className="mb-3 formBox" controlId="formBasicEnteMessage">
-        <Form.Control size="md" as="textarea"  rows={8} placeholder="Enter message here" value={message} onChange={(event) => setMessage(event.target.value)} />
+        <Form.Control size="md" as="textarea"  rows={12} placeholder="Enter message here" value={message} onChange={(event) => setMessage(event.target.value)} />
       </Form.Group>
 
       <Button variant="primary" type="submit" onClick={handleSubmit}>
