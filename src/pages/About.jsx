@@ -1,5 +1,5 @@
 import AboutUs from "../components/About/AboutUs"
-import OtherSections from "../components/About/OtherSections"
+import OtherSections, { LastSection } from "../components/About/OtherSections"
 import { Col, Row } from "react-bootstrap"
 import Certifications from "../components/Home/Certifications"
 
@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             <AboutUs />
-            <Row>
+            <Row className="flexedSections">
                 <Col>
                     <OtherSections title={"Mission"} details={"To provide Nigerians and international customers with high quality 1828 cashew nut, also building customer loyalty through customer service excellence"}
                     /> 
@@ -18,7 +18,7 @@ const About = () => {
                     /> 
                 </Col>
             </Row>
-            <OtherSections title={"Core values"} bullet1={<li>Develop High skilled, motivated and committed employees</li>} bullet2={<li>Build trust with customers through good customer relationship</li>} bullet3={<li>Bringing added values for our customers and suppliers in the supply chain </li>}
+            <LastSection title={"Core values"} bullet1={<li>Develop High skilled, motivated and committed employees</li>} bullet2={<li>Build trust with customers through good customer relationship</li>} bullet3={<li>Bringing added values for our customers and suppliers in the supply chain </li>}
             /> 
             <Certifications/>
         </>

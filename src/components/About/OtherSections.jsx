@@ -5,21 +5,39 @@ import './../../assets/styles/About.css'
 
 const OtherSections = ({title, details, bullet1, bullet2, bullet3}) => {
   return (
-    <Container fluid className="othersections">
-       <div>
+    <>
+      <Container className="othersections">
             <h3>{title}</h3>
-            <hr />
-            <p>
+            <hr className="line"/>
+            <h5 className="">
                 {details} 
-            </p>
+            </h5>
               <ul>
-                  { bullet1}
+                  {bullet1}
                   {bullet2}
-                  { bullet3}
+                  {bullet3}
               </ul>              
-       </div>
-    </Container>
+      </Container>
+      {/* <LastSection/> */}
+    </>
+  
   )
 }
 
 export default OtherSections
+
+export const LastSection = ({ title, bullet1, bullet2, bullet3 }) => {
+  return (
+     <Container className="lastsections">
+            <h3>{title}</h3>
+            <hr className="line"/>
+              <ul>
+                  {bullet1}
+                  {bullet2}
+                  {bullet3}
+              </ul>              
+    </Container>
+  )
+}
+
+

@@ -67,6 +67,12 @@
     font-weight: Bold;
     height: 40px;
     margin-top: 10px;
+    border: 0px;
+}
+
+.form-button:hover {
+    background-color: #C4D3BA;
+    color: #000;
 }
 
 @media screen and (max-width: 900px) {
