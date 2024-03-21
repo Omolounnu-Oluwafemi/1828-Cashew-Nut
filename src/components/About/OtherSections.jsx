@@ -3,28 +3,35 @@ import { Container } from "react-bootstrap"
 import './../../assets/styles/About.css'
 
 
-const OtherSections = ({title, details, bullet1, bullet2, bullet3}) => {
+export const MissionSection = ({ title, details }) => {
   return (
     <>
       <Container className="othersections">
-            <h3>{title}</h3>
-            <hr className="line"/>
-            <h5 className="">
-                {details} 
-            </h5>
-              <ul>
-                  {bullet1}
-                  {bullet2}
-                  {bullet3}
-              </ul>              
+        <h3>{title}</h3>
+        <hr className="line" />
+        <h5 className="">
+          {details}
+        </h5>
       </Container>
-      {/* <LastSection/> */}
     </>
-  
   )
-}
+};
 
-export default OtherSections
+
+export const VisionSection = ({ title, details }) => {
+  return (
+    <>
+      <Container className="vision-sections">
+        <h3>{title}</h3>
+        <hr className="line" />
+        <h5 className="">
+          {details}
+        </h5>
+      </Container>
+    </>
+  )
+};
+
 
 export const LastSection = ({ title, bullet1, bullet2, bullet3 }) => {
   return (
