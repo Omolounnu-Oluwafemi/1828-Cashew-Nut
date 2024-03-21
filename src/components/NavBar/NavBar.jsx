@@ -45,9 +45,9 @@ const NavBar = () => {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu className='dropCont'>
-                    <Dropdown.Item href="/processing" className='dropItem'>Nut Processing</Dropdown.Item>
-                    <Dropdown.Item href="/exportation" className='dropItem'>Nut Exportation</Dropdown.Item>
-                    <Dropdown.Item href="/sourcing" className='dropItem'>Nut Sourcing</Dropdown.Item>
+                    <Dropdown.Item href="/processing" className='dropItem'>Processing</Dropdown.Item>
+                    <Dropdown.Item href="/exportation" className='dropItem'>Exportation</Dropdown.Item>
+                    <Dropdown.Item href="/sourcing" className='dropItem'>Sourcing</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
                 <Nav.Link href="/contact" className='navlink'>Contact</Nav.Link>

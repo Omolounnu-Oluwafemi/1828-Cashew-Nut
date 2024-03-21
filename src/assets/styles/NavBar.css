@@ -61,6 +61,7 @@
 .dropCont {
     background-color: #F0D8B2;
     border: none;
+    text-align: center;
 }
 
 .dropItem:hover {
