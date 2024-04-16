@@ -10,9 +10,10 @@ const Footer = () => {
   return (
     <footer className="bg text-dark py-3 footer">
       <Container className="footerContainer">
-        <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594043/1828Cashew/Logo_c8tury.png" alt="1828 Cashew" className="footerLogo" />
+       
         <Row className='footerRow'>
           <Col xs={12} md={3} className="mb-3 mb-md-0 footerFirst">
+             <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1713262975/1828Cashew/Rectangle_155_iuyq65.png" alt="1828 Cashew" className="footerLogo" />
             <p>Arepo industrial estate, Beside BHN, Km3, Lagos/Shagamu express road, Arepo, Ogun State</p>
           </Col>
           <Col xs={12} md={9} className="px-md-3">

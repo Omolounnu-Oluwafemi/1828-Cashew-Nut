@@ -1,21 +1,21 @@
 export const Home3Data = [
     {
         index: 1,
-        img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1710415777/1828Cashew/Rectangle_154_nzl7re.png',
-        title: 'Cashew Farm',
-        type: "W180 Cashew Nut",
+        img:'https://res.cloudinary.com/drlfylzhf/image/upload/v1713257642/1828Cashew/Rectangle_164_li9koe.png',
+        title: 'Production',
+        text: "A touch of silky cashew milk with breakfast or lunch keeps your energy flowing just right",
     },
     {
         index: 1,
-        img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902273/1828Cashew/GalleryPage/PHOTO-2024-01-27-12-31-14_11_2_rnwcnz.png',
-        title: 'Cashew Fruit',
-          type: "W180 Cashew Nut",
+        img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713257650/1828Cashew/Rectangle_165_lttvkg.png',
+        title: 'Processing',
+        text: "W1828 cashew has the machines and best environment needed for processing cashew nut",
     },
     {
         index: 1,
-        img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902274/1828Cashew/GalleryPage/PHOTO-2024-01-27-12-31-14_10_2_ul3rpl.png',
-        title: 'Cashew Nut',
-          type: "W180 Cashew Nut",
+        img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713257656/1828Cashew/Rectangle_166_un9ssi.png',
+        title: 'Packaging',
+        text: "Our packaging is top notch with the best moisture content required for different variety of cashew nut",
     },
 ]
     

@@ -17,7 +17,7 @@ const NavBar = () => {
       <Navbar key='sm' expand='sm' className="bg-body-tertiary navbar-main">
         <Container fluid className='navbar'>
           <Navbar.Brand href="#" className='logoContainer'>
-            <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594043/1828Cashew/Logo_c8tury.png" alt=""  className='logo'/>  
+            <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1713262975/1828Cashew/Rectangle_155_iuyq65.png" alt=""  className='logo'/>  
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="offcanvasNavbar"
@@ -32,7 +32,7 @@ const NavBar = () => {
             onHide={handleClose}
           >
             <Offcanvas.Header closeButton>
-             <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594043/1828Cashew/Logo_c8tury.png" alt=""  className='logoToggle'/> 
+             <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1713262975/1828Cashew/Rectangle_155_iuyq65.png" alt=""  className='logoToggle'/> 
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 ">

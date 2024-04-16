@@ -1,5 +1,5 @@
 .homeHero {
-    background-image: url('https://res.cloudinary.com/drlfylzhf/image/upload/v1709594039/1828Cashew/image_9_uolzcf.png');
+    background-image: url('https://res.cloudinary.com/drlfylzhf/image/upload/v1713224450/1828Cashew/Rectangle_162_qque3f.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 820px;
@@ -52,6 +52,10 @@
     margin-top: 80px;
     margin-bottom: 80px;
 
+    .second-section-row {
+        gap: 15px;
+    }
+
     .behealthyCont {
         margin: auto;
         margin-left: 70px;
@@ -68,10 +72,35 @@
         font-weight: bold;
     }
 
+    .wedevelopCont {
+        box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+        padding-top: 70px;
+        padding-bottom: 150px;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .wedevelopImgCont {
+        box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .wedevelopImg {
+        width: 80%;
+        height: 45px;
+    }
+
     .heroContainerParagraph {
         line-height: 42.7px;
         font-size: 24px;
-        word-spacing: 10px;
+        word-spacing: 5px;
+        width: 80%;
+        margin-left: 40px;
+        color: #4E4E4F;
+        font-weight: 300;
     }
 
     .twoCashewCont {
@@ -89,46 +118,19 @@
     }
 }
 
-
-.greenCard {
-    background-color: #406627;
-    max-width: 50%;
-    padding: 70px 70px;
+.third-section {
+    width: 80%;
 }
 
-.greenCard h4 {
-    width: 50%;
-    color: #FBFBFB;
-    font-size: 32px;
-    line-height: 48px;
-    margin-left: 20%;
-    margin: auto;
-}
 
-.greenCard h5 {
-    color: #FBFBFB;
-    font-size: 24px;
-    font-weight: lighter;
-    line-height: 32px;
-    margin-top: 30px;
-    width: 65%;
-    margin-left: 20%;
+.home-carousel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    width: 90%;
 }
-
-.export40 {
-    background-color: #C4D3BA;
-    padding: 70px 70px;
-}
-
-.export40text {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: medium;
-    color: #33511F;
-    padding: 0 70px 0 70px;
-    margin-top: 40px;
-}
-
 
 
 @media screen and (max-width: 900px) {
@@ -153,35 +155,10 @@
     }
 
     .secondSection {
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-top: 80px;
         margin-bottom: 80px;
-    }
-
-    .greenCard h4 {
-        width: 100%;
-        color: #FBFBFB;
-        font-size: 32px;
-        line-height: 48px;
-        margin-left: 20%;
-        margin: auto;
-    }
-
-    .greenCard h5 {
-        color: #FBFBFB;
-        font-size: 24px;
-        font-weight: lighter;
-        line-height: 32px;
-        margin-top: 30px;
-        width: 100%;
-        margin-left: 0%;
-    }
-
-    .export40 {
-        background-color: #C4D3BA;
-        padding: 20px 20px;
-        padding-top: 50px;
     }
 }
 
@@ -213,49 +190,31 @@
         text-align: left;
     }
 
-    .greenCard {
-        background-color: green;
-        max-width: 100%;
-        border-radius: 0%;
-        /* height: 200px; */
-    }
-
-    .greenCard h4 {
-        color: white;
-        font-size: 25px;
-        padding-top: 10px;
-        line-height: 28px;
-        width: 80%;
-        margin: auto;
-    }
-
-    .greenCard h5 {
-        color: white;
-        font-size: 22px;
-        font-weight: lighter;
-        line-height: 30px;
-        margin: auto;
-        margin-top: 30px;
-        width: 80%;
-    }
-
-    .export40 {
-        background-color: #C4D3BA;
-        padding: 20px 20px;
-    }
-
-    .export40text {
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: medium;
-        color: #33511F;
-        padding: 0 50px 0 50px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
     .secondSection {
         width: 100%;
+
+        .wedevelopCont {
+            box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+            padding-top: 30px;
+            padding-bottom: 30px;
+            width: 90%;
+            margin-left: 5%;
+            border-radius: 10px;
+        }
+
+        .wedevelopImgCont {
+            box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 90%;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .wedevelopImg {
+            width: 80%;
+            height: 45px;
+        }
 
         .behealthyCont {
             margin: auto;
@@ -284,12 +243,13 @@
         }
 
         .heroContainerParagraph {
-            margin-top: 20px;
-            line-height: 32.7px;
+            line-height: 40px;
             font-size: 20px;
-            word-spacing: 10px;
-            margin-left: 0px;
-            text-align: left;
+            word-spacing: 5px;
+            width: 80%;
+            margin-left: 10%;
+            color: #4E4E4F;
+            font-weight: 300;
         }
     }
 
@@ -301,7 +261,17 @@
         flex-direction: column;
     }
 
+    .third-section {
+        width: 100%;
+    }
 
-
+    .home-carousel {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-bottom: 20px;
+        width: 100%;
+    }
 
 }

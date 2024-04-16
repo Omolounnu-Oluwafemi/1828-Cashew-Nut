@@ -50,37 +50,69 @@
 }
 
 .weight {
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: medium;
     color: #4D7A2F;
     margin-bottom: 30px;
 }
 
-.product-page h6 {
-    font-size: 24px;
+.varietiestext {
+    font-size: 20px;
     font-weight: medium;
 }
 
+.other-varieties {
+    width: 100%;
+}
+
 .all-kgs {
-    display: flex;
-    justify-content: space-around;
     margin-bottom: 30px;
     margin-top: 30px;
+    width: 100%;
 }
 
 .kg {
+    padding: 10px 20px;
     font-size: 12px;
+    background-color: #F7ECD9;
+}
+
+.kg1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kg2 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kg3 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customerTitle {
+    font-size: 24px;
+    font-weight: medium;
+    line-height: 32px;
 }
 
 .star-container {
     display: flex;
     margin-top: 25px;
-
 }
 
 .star {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.customerReview {
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -103,16 +135,36 @@
         margin-top: 10px;
     }
 
-    .product-page h4 {
-        margin-top: 30px;
+    .other-varieties {
+        width: 100%;
+        text-align: left;
     }
 
-    .product-page h6 {
-        text-align: center;
+    .varietiestext {
+        font-size: 20px;
+        font-weight: medium;
     }
 
     .star-container {
-        justify-content: center;
+        justify-content: left;
+    }
+
+    .kg1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .kg2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .kg3 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
     }
 
 }
@@ -140,5 +192,27 @@
 
     .ProductButton {
         margin-top: 30px;
+    }
+
+    .kg1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .kg2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .kg3 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .customerReview {
+        text-align: left;
     }
 }

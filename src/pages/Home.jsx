@@ -2,8 +2,12 @@ import { Row, Col } from "react-bootstrap"
 import "./../assets/styles/Home.css"
 import Home3Card from "../components/Home/Home3Card"
 import Certifications from "../components/Home/Certifications"
+import HomeCarousel from "../components/Home/HomeCarousel"
+import { imageData } from "../assets/data/Homecarousel"
 
-function Home(){
+function Home() {
+  const images = imageData;
+
   return (
     <>
       <div className="homeHero">
@@ -14,32 +18,22 @@ function Home(){
          
       <div className="homeContainer">
         <div className="secondSection">
-            <Row className="second-section-row">
-              <Col className="">
-                <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709594037/1828Cashew/image_11_cmqpo3.png" alt="budding cashew plant" id="buddingplant" />     
-              </Col> 
-                <Col className="behealthyCont">
-                <h3 className="behealthytext">
-                  Be healthy and eat only 1828 cashew nut
-                </h3>
+          <Row className="second-section-row">
+             <Col className="wedevelopCont">
                 <p className="heroContainerParagraph">
-                  We have over 25 years of cashew farming experience
+                  We develop and deliver diverse assortments of cashew natural product. We produce several variety of cashew nut such as w180, w240, w320 and so on. 
                 </p>
-                </Col>
+            </Col>
+            
+              <Col className="wedevelopImgCont">
+                <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709902273/1828Cashew/GalleryPage/PHOTO-2024-01-27-12-31-14_11_2_rnwcnz.png" alt="budding cashew plant" id="buddingplant" />     
+              </Col> 
+               
             </Row> 
         </div>
-  
-        <Row className="thirdSection">
-           <Col className="greenCard">
-              <h4>1828 Cashew Nut</h4>
-              <h5>We export Cashew nuts to every part of the world, supply and delivery is guaranteed </h5>
-          </Col>
-          <Col className="export40">
-            <h5 className="export40text">
-              We export to over 40 countries of the world, 1828 cashew is the best leading cashew nut export company in Nigeria
-            </h5>
-          </Col>
-        </Row>
+
+        <HomeCarousel images={images} className="third-section"/>
+        
         <div className="fourthSection">
             <Home3Card />
         </div>

@@ -1,33 +1,57 @@
 .home3Card {
-    background-color: #FBFBFB;
+    background-image: url('https://res.cloudinary.com/drlfylzhf/image/upload/v1713257704/1828Cashew/Rectangle_163_zkktde.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
+}
+
+.why-choose {
+    color: #FBFBFB;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.home3Carddiv {
+    width: 90%;
     display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
+    justify-content: space-between;
+    margin-left: 5%;
+    padding: 70px 0px 150px 0px;
 }
 
 .eachHome3Card {
-    width: 32%;
+    width: 30%;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
     border: none;
 }
 
 .home3img {
-    width: 95%;
-    margin-left: 2.5%;
+    width: 100%;
     border-radius: 0px;
-    height: 350px;
-    max-height: 350px;
-    margin-top: 10px;
+    height: 400px;
 }
 
 .home3texts {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.home3texth4 {
     text-align: center;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 20px;
+    line-height: 32px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.home3textp {
+    color: #4E4E4F;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 900px) {
@@ -59,8 +83,25 @@
         margin-top: 50px;
     }
 
+    .why-choose {
+        color: #FBFBFB;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+    }
+
     .eachHome3Card {
-        width: 90%;
+        width: 100%;
         border-radius: 0px;
+        margin-bottom: 20px;
+    }
+
+    .home3Carddiv {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        margin-left: 0%;
+        padding: 50px 0px 100px 0px;
     }
 }
