@@ -15,11 +15,10 @@ export const GalleryData = [
         index: 3,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713266268/1828Cashew/GalleryPage/PHOTO-2024-01-27-12-31-14_11_2_1_x3utak.png',
         title: 'Cashew Nut Variety - w180 Brown',
-       
     },
      {
          index: 4,
-         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264408/1828Cashew/PHOTO-2024-01-27-12-31-14_10_2_1_sjgcz6.png',
+         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264408/1828Cashew/GalleryPage/PHOTO-2024-01-27-12-31-14_10_2_1_sjgcz6.png',
         title: 'Packaging Unit',
     },
       {
@@ -30,7 +29,7 @@ export const GalleryData = [
     },
        {
         index: 6,
-        img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264358/1828Cashew/IMG_6402_2_1_pgzghn.png',
+        img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264358/1828Cashew/GalleryPage/IMG_6402_2_1_pgzghn.png',
         title: 'Oven Tray',
      
     },
