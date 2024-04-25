@@ -21,14 +21,14 @@
 }
 
 .homeTitle {
-    padding-top: 450px;
-    width: 43%;
+    padding-top: 320px;
+    width: 35%;
     color: #FBFBFB;
     font-size: 40px;
-    line-height: 56px;
-    margin-left: 70px;
+    line-height: 50px;
+    margin-left: 100px;
     letter-spacing: 1px;
-    word-spacing: 5px;
+    word-spacing: 1px;
     z-index: 2;
     position: relative;
 }
@@ -36,11 +36,11 @@
 .homeHeroText {
     position: relative;
     padding-top: 15px;
-    width: 32%;
+    width: 29.5%;
     color: #FBFBFB;
     font-size: 20px;
     line-height: 32px;
-    margin-left: 70px;
+    margin-left: 100px;
     letter-spacing: 1px;
     word-spacing: 5px;
     z-index: 2;
@@ -160,6 +160,8 @@
         margin-top: 80px;
         margin-bottom: 80px;
     }
+
+    
 }
 
 @media screen and (max-width: 768px) {

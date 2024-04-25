@@ -33,7 +33,7 @@ export const VisionSection = ({ title, details }) => {
 };
 
 
-export const LastSection = ({ title, bullet1, bullet2, bullet3 }) => {
+export const LastSection = ({ title, bullet1, bullet2, bullet3, bullet4 }) => {
   return (
      <Container className="lastsections">
             <h3>{title}</h3>
@@ -42,6 +42,7 @@ export const LastSection = ({ title, bullet1, bullet2, bullet3 }) => {
                   {bullet1}
                   {bullet2}
                   {bullet3}
+                  {bullet4}
               </ul>              
     </Container>
   )

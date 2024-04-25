@@ -13,19 +13,19 @@ const Certifications = () => {
           </Row>
           <Row className='certTextsRow'>
               <Col>
-                  <h4 className='certTexts'>4</h4>
+                  <h4 className='certTexts'>2</h4>
                   <h4 className='certTexts'>Storehouses</h4>
               </Col>
               <Col>
-                <h4 className='certTexts'> 50+</h4>
+                <h4 className='certTexts'> 200+</h4>
                   <h4 className='certTexts'>Employees</h4>
               </Col>
               <Col>
-                  <h4 className='certTexts'>40,000</h4>
+                  <h4 className='certTexts'></h4>
                   <h4 className='certTexts'>Tonnes Exported</h4>
               </Col>
               <Col>
-                  <h4 className='certTexts'>40+</h4>
+                  <h4 className='certTexts'></h4>
                   <h4 className='certTexts'> Export Countries</h4>
               </Col>
           </Row>

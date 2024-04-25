@@ -2,7 +2,7 @@ export const GalleryData = [
     {
         index: 1,
           img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902274/1828Cashew/GalleryPage/PHOTO-2024-02-26-14-33-30_1_gby3mm.png',
-        title: '1828 CASHEW NUT ADMIN STAFF',
+        title: '1828 CASHEW NUT MANAGEMENT STAFF',
        
     },
     {
@@ -30,7 +30,7 @@ export const GalleryData = [
        {
         index: 6,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264358/1828Cashew/GalleryPage/IMG_6402_2_1_pgzghn.png',
-        title: 'Oven Tray',
+        title: 'Oven Trays',
      
     },
         {
@@ -46,38 +46,32 @@ export const GalleryData = [
       {
         index: 9,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1709902276/1828Cashew/GalleryPage/IMG_6419_3_fcnze3.png',
-        title: 'Storage Room',
-       
-        
+        title: 'RCN Storage Room',
     },
        {
         index: 10,
          img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264345/1828Cashew/GalleryPage/IMG_6421_1_1_yzx16s.png',
-        title: 'Factory car park',
+        title: 'Colour sorter and grading machine',
     },
       {
         index: 11,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264350/1828Cashew/GalleryPage/IMG_6419_3_1_wdifcp.png',
         title: 'Processing Machine',
-       
-        
     },
        {
         index: 12,
          img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264373/1828Cashew/GalleryPage/IMG_6421_1_3_witnbv.png',
-        title: 'Shaft from spliting cashew nut',
+        title: 'Shells from spliting cashew nut',
     },
       {
         index: 13,
         img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264353/1828Cashew/GalleryPage/IMG_6419_3_3_bwlqsy.png',
-        title: 'Selection Room',
-       
-        
+        title: 'Manual grading session room',   
     },
        {
         index: 14,
          img: 'https://res.cloudinary.com/drlfylzhf/image/upload/v1713264353/1828Cashew/GalleryPage/IMG_6421_1_2_lo7add.png',
-        title: 'Factory staff working',
+        title: 'Factory staffs',
     },
 ]
     

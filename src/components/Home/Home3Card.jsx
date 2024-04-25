@@ -19,8 +19,6 @@ const Home3Card = () => {
           </Card>
        ))}
       </div>
-      
-   
     </Container>
   )
 }

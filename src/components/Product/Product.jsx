@@ -12,7 +12,7 @@ const Product = () => {
                   <h4>Cashew Nut</h4>
                   <h5 className="product-description">Description</h5>
                   <p className="product-text">The cashew nut is edible and is considered eaten on its own as a snack, used in recipes, or processed into cashew cheese or cashew butter.</p>
-                  <h5 className="weight">Best Price/KG: $6/KG</h5>
+                  <h5 className="weight">Best Price/KG: Prices based on demand</h5>
 
                     <Row className=" d-flex justify-content-between">
                         <Col className="other-varieties">

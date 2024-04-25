@@ -11,8 +11,8 @@ function Home() {
   return (
     <>
       <div className="homeHero">
-        <h3 className="homeTitle">BEST CASHEW NUT COMPANY IN NIGERIA</h3>
-        <h1 className="homeHeroText">Customer satisfaction and consumer happiness with or product is our priority. We produce high quality cashew nut.
+        <h3 className="homeTitle">Welcome to 1828 Cashew</h3>
+        <h1 className="homeHeroText">Best Cashew Nut Company In Nigeria where passion meets precision in the art of processing.
         </h1>
       </div>
          
