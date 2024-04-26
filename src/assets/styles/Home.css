@@ -74,8 +74,8 @@
 
     .wedevelopCont {
         box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
-        padding-top: 70px;
-        padding-bottom: 150px;
+        padding-top: 40px;
+        padding-bottom: 10px;
         width: 50%;
         border-radius: 10px;
     }
@@ -97,8 +97,8 @@
         line-height: 42.7px;
         font-size: 24px;
         word-spacing: 5px;
-        width: 80%;
-        margin-left: 40px;
+        width: 90%;
+        margin-left: 5%;
         color: #4E4E4F;
         font-weight: 300;
     }
@@ -155,13 +155,31 @@
     }
 
     .secondSection {
-        width: 100%;
+        width: 95%;
         margin: auto;
         margin-top: 80px;
         margin-bottom: 80px;
     }
 
-    
+    .wedevelopCont {
+        box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .heroContainerParagraph {
+        line-height: 20px;
+        font-size: 15px;
+        word-spacing: 5px;
+        width: 100%;
+        margin-left: 2.5%;
+        color: #4E4E4F;
+        font-weight: 300;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -169,7 +187,6 @@
         width: 100%;
         background-size: auto;
         margin-top: 0px;
-        /* max-height: 400px; */
     }
 
     .homeTitle {
@@ -199,8 +216,8 @@
             box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
             padding-top: 30px;
             padding-bottom: 30px;
-            width: 90%;
-            margin-left: 5%;
+            width: 95%;
+            margin-left: 2.5%;
             border-radius: 10px;
         }
 
@@ -248,8 +265,8 @@
             line-height: 40px;
             font-size: 20px;
             word-spacing: 5px;
-            width: 80%;
-            margin-left: 10%;
+            width: 95%;
+            margin-left: 2.5%;
             color: #4E4E4F;
             font-weight: 300;
         }

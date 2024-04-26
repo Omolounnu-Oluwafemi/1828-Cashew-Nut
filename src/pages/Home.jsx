@@ -21,7 +21,7 @@ function Home() {
           <Row className="second-section-row">
              <Col className="wedevelopCont">
                 <p className="heroContainerParagraph">
-                  We develop and deliver diverse assortments of cashew natural product. We produce several variety of cashew nut such as w180, w240, w320 and so on. 
+                  With our years of expertise and deep rooted passion for excellence, we harness the natural goodness of cashews to create a range of premium products that are not only delicious but nutritious. Our selection of cashew nut, from whole kernel to value-added varieties, promises to elevate your snacking and cooking experience. 
                 </p>
             </Col>
             

@@ -7,9 +7,11 @@ const Certifications = () => {
           <Row className='certImages'>
                   <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709741818/1828Cashew/Nafdac_nvfa4s.png" alt="" className='nafdacImg'/>
               
-                  <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709741815/1828Cashew/son_fo0goq.png" alt="" className='nafdacImg'/>
+                  <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1714152464/1828Cashew/image_29_hdyc6m.png" alt="" className='nafdacImg'/>
              
-                  <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709741816/1828Cashew/Ncan_f9i3lm.png" alt="" className='nafdacImg'/>
+              <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709741816/1828Cashew/Ncan_f9i3lm.png" alt="" className='nafdacImg' />
+              
+                  <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1714152464/1828Cashew/image_27_txi0py.png" alt="" className='nafdacImg'/>
           </Row>
           <Row className='certTextsRow'>
               <Col>
@@ -22,7 +24,7 @@ const Certifications = () => {
               </Col>
               <Col>
                   <h4 className='certTexts'></h4>
-                  <h4 className='certTexts'>Tonnes Exported</h4>
+                  <h4 className='certTexts'>Exportation in Tonnes</h4>
               </Col>
               <Col>
                   <h4 className='certTexts'></h4>

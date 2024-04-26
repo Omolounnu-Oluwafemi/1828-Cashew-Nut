@@ -16,7 +16,7 @@ const ContactComponent = () => {
                 <FontAwesomeIcon icon={faSquareEnvelope} size="lg"/>
               </div>
               <div className="contact-icontext">
-                <p>bolosoka04@yahoo.com</p>
+                <p>bbaventures93@gmail.com</p>
               </div>  
             </div>
             <div className="contact-icons-row">

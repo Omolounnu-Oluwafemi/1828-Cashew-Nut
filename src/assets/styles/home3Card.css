@@ -36,6 +36,7 @@
 .home3texts {
     width: 90%;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .home3texth4 {
@@ -65,6 +66,12 @@
         margin-top: 50px;
     }
 
+    .home3img {
+        width: 100%;
+        border-radius: 0px;
+        height: fit-content;
+    }
+
     .eachHome3Card {
         width: 100%;
         display: flex;
@@ -78,6 +85,20 @@
         justify-content: none;
         margin-left: 5%;
         padding: 70px 0px 150px 0px;
+    }
+
+    .home3texts {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .home3textp {
+        color: #4E4E4F;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 0px;
+        margin-top: 5px;
     }
 }
 

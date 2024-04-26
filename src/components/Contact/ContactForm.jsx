@@ -22,8 +22,8 @@ const ContactForm = () => {
       Host: "smtp.elasticemail.com",
       Username: "sammiebeechh@gmail.com",
       Password: "7DAFCCF89529A82AB68CA2213E2CD1FEE88B",
-      To: 'oluwafemiomolounnu@gmail.com',
-      From: 'sammiebeechh@gmail.com',
+      To: 'bbaventures93@gmail.com',
+      From: `${formData.email}`,
       Subject: `New Message from: ${formData.firstname} ${formData.lastname}`,
       Body: `
             <h1>New Message</h1>
