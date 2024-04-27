@@ -83,7 +83,7 @@
     padding-top: 30px;
     width: 90%;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .vision-sections h5 {
@@ -92,7 +92,7 @@
     padding-top: 30px;
     width: 90%;
     margin: auto;
-    padding-bottom: 66px;
+    padding-bottom: 110px;
 }
 
 .lastsections ul {
@@ -137,12 +137,20 @@
     }
 
     .about-p {
-        padding-top: 100px;
+        padding-top: 0px;
         font-size: 24px;
         font-weight: lighter;
         width: 100%;
         line-height: 32px;
-        /* margin-left: 20%; */
+    }
+
+    .vision-sections h5 {
+        font-size: 28px;
+        font-weight: lighter;
+        padding-top: 30px;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 140px;
     }
 
     .flexedSections {
@@ -182,6 +190,63 @@
         font-weight: lighter;
         width: 100%;
         line-height: 32px;
+    }
+
+    .vision-sections h5 {
+        font-size: 28px;
+        font-weight: lighter;
+        padding-top: 70px;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 170px;
+    }
+
+    .flexedSections {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .lastsections {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (width: 884px) {
+    .aboutContainer {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .about-text-pix {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-pix img {
+        margin-top: 30px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-p {
+        padding-top: 10px;
+        font-size: 24px;
+        font-weight: lighter;
+        width: 100%;
+        line-height: 32px;
+    }
+
+    .vision-sections h5 {
+        font-size: 28px;
+        font-weight: lighter;
+        padding-top: 90px;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 116px;
     }
 
     .flexedSections {
@@ -243,7 +308,7 @@
         padding-top: 30px;
         width: 90%;
         margin: auto;
-        padding-bottom: 70px;
+        padding-bottom: 40px;
     }
 
     .vision-sections {

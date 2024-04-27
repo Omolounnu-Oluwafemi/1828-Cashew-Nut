@@ -10,7 +10,7 @@ const About = () => {
             <AboutUs />
             <Row className="flexedSections">
                 <Col >
-                    <MissionSection title={"Mission"} details={"To provide Nigerians high quality 1828 cashew nut to the global world, also building customer loyalty through customer service excellence"}
+                    <MissionSection title={"Mission"} details={"Our mission is to produce high-quality cashew products tha delight our customers while maintaining a commitment to sustainability, food safety, and social responsibility. We strive to build long-term relationships with our stakeholders all over the world."}
                     /> 
                 </Col>
                 <Col>
