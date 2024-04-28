@@ -28,7 +28,7 @@ const Certifications = () => {
               </Col>
               <Col>
                   <h4 className='certTexts'></h4>
-                  <h4 className='certTexts'> Export Countries</h4>
+                  <h4 className='certTexts'> Export Overseas</h4>
               </Col>
           </Row>
       
