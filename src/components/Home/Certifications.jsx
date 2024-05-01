@@ -9,9 +9,9 @@ const Certifications = () => {
               
                   <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1714152464/1828Cashew/image_29_hdyc6m.png" alt="" className='nafdacImg'/>
              
-              <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709741816/1828Cashew/Ncan_f9i3lm.png" alt="" className='nafdacImg' />
+                <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1709741816/1828Cashew/Ncan_f9i3lm.png" alt="" className='nafdacImg' />
               
-                  <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1714152464/1828Cashew/image_27_txi0py.png" alt="" className='nafdacImg'/>
+                <img src="https://res.cloudinary.com/drlfylzhf/image/upload/v1714152464/1828Cashew/image_27_txi0py.png" alt="" className='nafdacImg'/>
           </Row>
           <Row className='certTextsRow'>
               <Col>
